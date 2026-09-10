@@ -3,7 +3,8 @@ import 'package:pigeon/pigeon.dart';
 @ConfigurePigeon(
   PigeonOptions(
     dartOut: 'lib/src/foundation_models_api.g.dart',
-    swiftOut: 'ios/Classes/FoundationModelsApi.g.swift',
+    swiftOut:
+        'ios/foundation_models_framework/Sources/foundation_models_framework/FoundationModelsApi.g.swift',
     dartPackageName: 'foundation_models_framework',
   ),
 )

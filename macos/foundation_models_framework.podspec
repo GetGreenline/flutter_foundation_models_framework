@@ -10,7 +10,10 @@ A Flutter plugin that provides access to Apple's Foundation Models framework for
   s.author           = { 'Your Company' => 'email@example.com' }
 
   s.source           = { :path => '.' }
-  s.source_files     = 'foundation_models_framework/Sources/foundation_models_framework/**/*'
+  s.source_files     = [
+    'foundation_models_framework/Sources/foundation_models_framework/**/*.swift',
+    'Classes/**/*',
+  ]
   s.dependency 'FlutterMacOS'
   s.platform = :osx, '15.0'
 

@@ -1,4 +1,4 @@
-#import "./include/foundation_models_framework/FoundationModelsFrameworkPlugin.h"
+#import "FoundationModelsFrameworkPlugin.h"
 #if __has_include(<foundation_models_framework/foundation_models_framework-Swift.h>)
 #import <foundation_models_framework/foundation_models_framework-Swift.h>
 #else

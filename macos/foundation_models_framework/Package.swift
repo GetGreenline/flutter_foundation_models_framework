@@ -23,7 +23,6 @@ let package = Package(
                 .product(name: "FlutterFramework", package: "FlutterFramework")
             ],
             path: "Sources/foundation_models_framework",
-            publicHeadersPath: "include",
             linkerSettings: [
                 .unsafeFlags(["-weak_framework", "FoundationModels"])
             ]
