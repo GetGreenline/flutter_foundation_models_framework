@@ -25,7 +25,7 @@ let package = Package(
             path: "Sources/foundation_models_framework",
             publicHeadersPath: "include",
             linkerSettings: [
-                .linkedFramework("FoundationModels", .weak)
+                .unsafeFlags(["-weak_framework", "FoundationModels"])
             ]
         )
     ]
