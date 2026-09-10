@@ -10,7 +10,7 @@ A Flutter plugin that provides access to Apple's Foundation Models framework for
   s.author           = { 'Your Company' => 'email@example.com' }
 
   s.source           = { :path => '.' }
-  s.source_files     = 'Classes/**/*'
+  s.source_files     = 'foundation_models_framework/Sources/foundation_models_framework/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '15.0'
 
@@ -21,4 +21,4 @@ A Flutter plugin that provides access to Apple's Foundation Models framework for
   # Foundation Models framework is available in iOS 26.0+
   # Using weak_frameworks allows the plugin to build for iOS 15+ while only loading the framework at runtime on iOS 26+
   s.weak_frameworks = 'FoundationModels'
-end 
+end

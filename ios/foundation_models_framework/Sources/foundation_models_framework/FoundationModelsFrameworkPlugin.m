@@ -1,4 +1,4 @@
-#import "FoundationModelsFrameworkPlugin.h"
+#import "./include/foundation_models_framework/FoundationModelsFrameworkPlugin.h"
 #if __has_include(<foundation_models_framework/foundation_models_framework-Swift.h>)
 #import <foundation_models_framework/foundation_models_framework-Swift.h>
 #else
@@ -12,4 +12,4 @@
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   [SwiftFoundationModelsFrameworkPlugin registerWithRegistrar:registrar];
 }
-@end 
+@end
